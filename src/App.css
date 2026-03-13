@@ -187,5 +187,19 @@
 .flex {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 100px;
+}
+
+button {
+  display: flex;
+  margin: 7px;
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  border-style: solid;
+  border-color: black;
+  border-radius: 9px;
+  padding: 15px 25px;
+  color: white;
 }
